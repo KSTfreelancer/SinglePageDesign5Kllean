@@ -1,0 +1,263 @@
+
+@media(max-width:992px){
+
+
+/* nav */
+.toggle-icn{
+  display: block;
+}
+.menu-bar .logo{
+  height: auto;
+  background-color: white;
+}
+.menu-bar .logo h1{
+  margin: 1.5rem 0 0 2rem;
+  color: #FFC600;
+}
+.menu-bar{
+  flex-direction: column;
+}
+.menu-bar .nav-menu{
+  width: 100%;
+}
+.nav ul {
+    width: 100%;
+   padding-left: 0;
+   background-color: rgba(0,0,0,0.8);
+  }
+  .menu-bar .nav-bar{
+    background-color: white;
+  }
+.nav-bar .nav {
+    width: 100%;
+}
+
+.header-section{
+  position: relative;
+}
+.logo {
+  position: absolute;
+  z-index: 10;
+}
+.nav ul {
+    top: 10.5vh;
+    z-index: 10;
+    position: absolute;
+  }
+  .nav ul {
+    display: none;
+  }
+/* .menu-bar .nav-bar{
+  background-color: white;
+} */
+.nav ul li {
+    width: 100%;
+  }
+.nav-contact{
+  display: none;
+}
+.nav-btn{
+  display: none;
+}
+/* nav */
+
+
+  .slider-content h1{
+    line-height: 4.2rem;
+    font-size: 4.2rem;
+  }
+
+  .office, .call {
+    text-align: center;
+  }
+  .email{
+    text-align: center;
+  }
+  .header-bottom {
+    flex-direction: column;
+  }
+  /* about us */
+  .about-us{
+    flex-direction: column;
+  }
+  .about-left{
+    border-radius: 1rem;
+    width: 100%;
+    max-height: 40rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.about-right h4{
+  color: black;
+}
+/* services */
+.services{
+  height: 100rem;
+}
+.our-service-left{
+  width: 100%;
+}
+.service-right{
+  width: 100%;
+}
+.our-service-right {
+    margin-left: 0;
+    padding-top: 0;
+}
+.our-service-right{
+  width: 100%;
+}
+.text-templet .text-efect h2 {
+    width: 70%;
+  }
+  .our-service-left {
+    height: 40rem;
+    margin-top: 5rem;
+}
+/* CHOOSE US */
+.choose-us-under {
+    flex-direction: column;
+  }
+  .choose-us-left {
+    flex-basis: 50%;
+  }
+.choose-us-right {
+  margin-top: 3rem;
+    flex-basis:50%;
+    width: 100%;
+    max-height: 40rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+  .choose-us-right-photo img {
+    width: 100%;
+    margin-left: 0;
+  }
+/* PROJECT NAME */
+  .project-item {
+    flex-basis: 50%;
+  }
+  
+/*  TEAM */
+  .team .text-templet {
+    width: 100%;
+  }
+  .team .meet-right-text {
+    width: 100%;
+  }
+  .text-templet .text-efect h2 {
+    width: 65%;
+  }
+  .all-blog {
+    flex-wrap: wrap;
+  }
+  .blog{
+    flex-basis: 47%;
+  }
+  .blog.blog-three {
+    margin-top: 3rem;
+}
+  /* footer */
+  .footer-all-section {
+    flex-wrap: wrap;
+}
+.footer-comon {
+    flex-basis: 50%;
+    padding-top: 2rem;
+  }
+  .footer-one{
+    padding-top: 0;
+  }
+
+}
+
+@media(max-width:767px){
+  .slider-content{
+    width: 90%;
+  }
+  .office,.call,.email{
+    padding: 2rem;
+  }
+  .project-group {
+    flex-direction: column;
+  }
+  .all-blog {
+    flex-direction: column;
+  }
+.blog-two{
+  margin-top: 3rem;
+}
+.footer-all-section {
+    flex-direction: column;
+  }
+.footer-comon ul {
+  padding-top: .5rem;
+}
+.footer-form input[type="submit"] {
+  right: 1.1rem;
+}
+.choose-counter .three-counter {width: 100%;}
+.text-templet .text-efect h2 {
+    width: 65%;
+    font-size: 2.2rem;
+}
+.ot-line .secend-line {
+    width: 3rem}
+  .ot-line .first-line{
+      width: 3rem;
+    }
+
+ .testmonial-section .text-templet .text-efect h2 {
+    width: 19.5rem;
+}
+.animation-btn{
+  height: 4rem;
+  width: 4rem;
+}
+.animation-btn i {
+  font-size: 2rem;
+}
+.text-templet .text-efect .ot-line{
+  padding-top: 1rem;
+}
+.blog-section .text-templet .text-efect h2 {
+    width: 65%;}
+
+}
+@media(max-width:580px){
+  .slider-content h1{
+    margin: 1.5rem 0;
+    font-size: 3rem;
+  }
+  .header-slider{
+    height: 40vh;
+  }
+  .nav ul li {
+    height: auto;
+    line-height: 4.7rem;
+  }
+}
+
+@media(max-width:480px){
+  .text-templet .text-efect h2{
+    width: 82%;
+    font-size: 2rem;
+  }
+  .slider-content{
+    width: 100%;
+  }
+  
+.btn:link, .btn:visited, .btn{
+  padding: 1rem 2.5rem;
+}
+.about-right{
+  padding-left: 0;
+  padding-right: 0;
+}
+}
+
+@media(max-width:380px){
+  .our-service-left{
+    margin-bottom: 4rem;
+  }
+}
